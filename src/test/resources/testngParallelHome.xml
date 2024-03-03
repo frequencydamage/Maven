@@ -1,0 +1,12 @@
+<suite name="ParallelTests" parallel="tests" thread-count="2">
+    <test name="Parallel1">
+        <classes>
+            <class name="andersenCourse.parallelismus.ParallelClass1"/>
+        </classes>
+    </test>
+    <test name="Parallel2">
+        <classes>
+            <class name="andersenCourse.parallelismus.ParallelClass2"/>
+        </classes>
+    </test>
+</suite>

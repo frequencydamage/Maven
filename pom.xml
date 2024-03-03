@@ -21,6 +21,13 @@
             <version>4.17.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.9.0</version>
+            <scope>test</scope>
+        </dependency>
+
 
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
@@ -28,13 +35,6 @@
             <version>5.6.3</version>
         </dependency>
 
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
 
     </dependencies>
 </project>
