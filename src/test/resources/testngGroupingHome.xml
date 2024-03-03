@@ -1,0 +1,23 @@
+<suite name="testngGroupingHome">
+    <test name="First">
+        <groups>
+            <run>
+                <include name="first"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="andersenCourse.grouping.Groups"/>
+        </classes>
+    </test>
+
+    <test name="Second">
+        <groups>
+            <run>
+                <include name="second"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="andersenCourse.grouping.Groups"/>
+        </classes>
+    </test>
+</suite>
