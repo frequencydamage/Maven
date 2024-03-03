@@ -5,20 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f472af7f-6eec-477d-a648-c3bde79a0026" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andersenCourse/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/andersenCourse/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_9" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,16 +45,119 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/java/andersenCourse/grouping/testngGroupingHome.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/java/andersenCourse/parallelismus/testngParallelHome.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/testngGroupingHome.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/testngParallelHome.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/testngParametersHome.xml.executor": "Run",
+    "TestNG.Groups.executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.Priority1.b.executor": "Run",
+    "TestNG.Priority1.executor": "Run",
+    "TestNG.Priority2.executor": "Run",
+    "git-widget-placeholder": "lesson__11",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="andersenCourse.webSiteLoginTestWParameters" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Groups" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.grouping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.grouping" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.grouping.Groups" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.webSiteLoginTestWParameters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.webSiteLoginTestWParameters" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.webSiteLoginTestWParameters.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Priority2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.priority.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.priority" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.priority.Priority2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/java/andersenCourse/grouping/testngGroupingHome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/andersenCourse/grouping/testngGroupingHome.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/testngParametersHome.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testngParametersHome.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/testngParametersHome.xml" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/java/andersenCourse/grouping/testngGroupingHome.xml" />
+        <item itemvalue="TestNG.Groups" />
+        <item itemvalue="TestNG.Priority2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -71,6 +181,8 @@
       <workItem from="1708980725331" duration="90000" />
       <workItem from="1708980839046" duration="6000" />
       <workItem from="1708980850970" duration="345000" />
+      <workItem from="1709405885176" duration="100000" />
+      <workItem from="1709497141156" duration="4419000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
