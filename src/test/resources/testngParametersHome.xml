@@ -1,0 +1,37 @@
+<suite name="WebSiteLoginTestWParameters">
+    <test name="LoginTest1">
+        <parameter name="email" value="evgeniy@gmail.com"/>
+        <parameter name="password" value="evgeniy123"/>
+        <classes>
+            <class name="andersenCourse.webSiteLoginTestWParameters.LoginTest">
+                <methods>
+                    <include name="userLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="LoginTest2">
+        <parameter name="email" value="antonov@gmail.com"/>
+        <parameter name="password" value="antonov123"/>
+        <classes>
+            <class name="andersenCourse.webSiteLoginTestWParameters.LoginTest">
+                <methods>
+                    <include name="userLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="LoginTest3">
+        <parameter name="email" value="dmitriy@gmail.com"/>
+        <parameter name="password" value="dmitriev123"/>
+        <classes>
+            <class name="andersenCourse.webSiteLoginTestWParameters.LoginTest">
+                <methods>
+                    <include name="userLoginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
