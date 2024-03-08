@@ -11,7 +11,6 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 import java.util.ArrayList;
-import java.util.LinkedHashSet;
 import java.util.List;
 
 
@@ -42,7 +41,6 @@ public class TestScenarioFirst {
         searchForQuery("https://www.hyrtutorials.com/p/alertsdemo.html");
         openInNewTab();
         driver.get("https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit");
-        tabsID = new ArrayList<>(new LinkedHashSet<>(driver.getWindowHandles()));
         htmlFormsSitePerform();
         moveToNextTab();
         guinnessSitePerform();
@@ -117,7 +115,7 @@ public class TestScenarioFirst {
     }
 
     private void moveToNextTab() {
-        driver.switchTo().window(tabsID.get(1));
+        driver.switchTo().window(tabsID.get(0));
         tabsID.remove(0);
     }
 }
