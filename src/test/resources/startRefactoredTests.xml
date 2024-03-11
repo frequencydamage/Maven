@@ -1,0 +1,9 @@
+<suite name="RefactoredTests">
+    <test name="Tests">
+        <classes>
+            <class name="andersenCourse.lesson12Refactor.task1Refactor.TestAndersenLabSite"/>
+            <class name="andersenCourse.lesson12Refactor.task2Refactor.TestScenarioFirst"/>
+            <class name="andersenCourse.lesson12Refactor.task3Refactor.TestScenarioSecond"/>
+        </classes>
+    </test>
+</suite>
