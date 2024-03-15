@@ -1,0 +1,7 @@
+<suite name="AndersenPageAutotests">
+    <test name="NineTests">
+        <classes>
+            <class name="andersenCourse.lesson9TestCases.AndersenWebPageTest"/>
+        </classes>
+    </test>
+</suite>
