@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f472af7f-6eec-477d-a648-c3bde79a0026" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f472af7f-6eec-477d-a648-c3bde79a0026" name="Changes" comment="Tests for AndersenWebSite functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,47 @@
       <option name="project" value="LOCAL" />
       <updated>1708812062827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Used a pattern to create users on place">
+      <option name="closed" value="true" />
+      <created>1710465192062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710465192062</updated>
+    </task>
+    <task id="LOCAL-00003" summary="User class">
+      <option name="closed" value="true" />
+      <created>1710465210176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710465210176</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test configuration">
+      <option name="closed" value="true" />
+      <created>1710465238849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710465238849</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Page Object Model">
+      <option name="closed" value="true" />
+      <created>1710465289203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710465289203</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tests for AndersenWebSite functionality">
+      <option name="closed" value="true" />
+      <created>1710465450463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710465450463</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +143,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Used a pattern to create users on place" />
+    <MESSAGE value="User class" />
+    <MESSAGE value="Test configuration" />
+    <MESSAGE value="Page Object Model" />
+    <MESSAGE value="Tests for AndersenWebSite functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests for AndersenWebSite functionality" />
   </component>
 </project>
