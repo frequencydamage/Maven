@@ -191,8 +191,7 @@ public class AndersenWebPageTest {
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountFirstNameValue);
 
-        boolean actual = !actualFirstName.equals(andersenWebPage.accountFirstNameValue.getText());
-        Assert.assertTrue(actual);
+        Assert.assertNotEquals(actualFirstName, andersenWebPage.accountFirstNameValue.getText());
     }
 
     @Description("A test that verifies the possibility to change user Lastname")
@@ -217,8 +216,7 @@ public class AndersenWebPageTest {
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountFirstNameValue);
 
-        boolean actual = !actualLastName.equals(andersenWebPage.accountFirstNameValue.getText());
-        Assert.assertTrue(actual);
+        Assert.assertNotEquals(actualLastName, andersenWebPage.accountFirstNameValue.getText());
     }
 }
 
