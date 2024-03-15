@@ -99,7 +99,6 @@ public class AndersenWebPageTest {
                 .fillDateOfBirth(user)
                 .submitButtonClick();
 
-
         boolean actual = andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountEmailValue);
 
         andersenWebPage.deleteAccount();
@@ -119,7 +118,6 @@ public class AndersenWebPageTest {
                 .fillRegistrationData(user)
                 .fillDateOfBirth(user)
                 .submitButtonClick();
-
 
         boolean actual = andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountBirthDayValue);
 
@@ -167,6 +165,7 @@ public class AndersenWebPageTest {
                 .submitButtonClick();
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountBirthDayValue);
+
         boolean actual = !actualDateOfBirth.equals(andersenWebPage.accountBirthDayValue.getText());
         Assert.assertTrue(actual);
     }
@@ -192,9 +191,11 @@ public class AndersenWebPageTest {
         andersenWebPage.signInButtonClick();
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountFirstNameValue);
+
         boolean actual = !actualFirstName.equals(andersenWebPage.accountFirstNameValue.getText());
         Assert.assertTrue(actual);
     }
+
     @Description("A test that verifies the possibility to change user Lastname")
     @Severity(SeverityLevel.NORMAL)
     @Feature("Account edition")
@@ -216,6 +217,7 @@ public class AndersenWebPageTest {
         andersenWebPage.submitButtonClick();
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountFirstNameValue);
+
         boolean actual = !actualLastName.equals(andersenWebPage.accountFirstNameValue.getText());
         Assert.assertTrue(actual);
     }
