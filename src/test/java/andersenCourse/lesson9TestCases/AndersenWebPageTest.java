@@ -166,8 +166,7 @@ public class AndersenWebPageTest {
 
         andersenWebPage.waitVisibilityOfElement(andersenWebPage.accountBirthDayValue);
 
-        boolean actual = !actualDateOfBirth.equals(andersenWebPage.accountBirthDayValue.getText());
-        Assert.assertTrue(actual);
+        Assert.assertNotEquals(andersenWebPage.accountBirthDayValue.getText(), actualDateOfBirth);
     }
 
     @Description("A test that verifies the possibility to change user Name")
