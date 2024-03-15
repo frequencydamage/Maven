@@ -17,13 +17,7 @@ public class UserBuilder {
     }
 
     public static Builder registerTestsUser() {
-        return emptyUser().withFirstName("NameName")
-                .withLastName("SurnameSurname")
-                .withEmail("usertestingregister@gmail.com")
-                .withPassword("userUser123")
-                .withDayOfBirth("6")
-                .withMonthOfBirth("March")
-                .withYearOfBirth("2024");
+        return defaultUser().withEmail("usertestingregister@gmail.com");
     }
 
     public static final class Builder {
