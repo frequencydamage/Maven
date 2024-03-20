@@ -12,6 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -35,7 +42,23 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/RegistrationGroups.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/RegistrationTests.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/lesson9TestCases/RegistrationTests.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/startRefactoredTests.xml.executor": "Run",
+    "TestNG./Users/frequencydamage/IdeaProjects/andersenCourseMaven/src/test/resources/startRegisterTests.xml.executor": "Run",
+    "TestNG.TestAndersenWebPage.executor": "Debug",
+    "TestNG.TestAndersenWebPage.isDateOfBirthChangeable.executor": "Debug",
+    "TestNG.TestAndersenWebPage.isNotLoggingInWithNoData.executor": "Run",
+    "TestNG.TestAndersenWebPage.isNotLoggingWithIncorrectEmail.executor": "Run",
+    "TestNG.TestAndersenWebPage.isNotLoggingWithIncorrectPassword.executor": "Run",
+    "TestNG.TestAndersenWebPage.isNotRegisteringWithUsedEmail.executor": "Run",
+    "TestNG.TestAndersenWebPage.isPasswordEditSucceeded.executor": "Run",
+    "TestNG.TestAndersenWebPage.isRegisteringWithIncorrectDate.executor": "Run",
+    "TestNG.TestAndersenWebPage.isRegisteringWithInvalidEmail.executor": "Run",
+    "TestNG.TestScenarioSecond.accountRegister.executor": "Run",
+    "TestNG.TestScenarioSecond.executor": "Run",
+    "git-widget-placeholder": "lesson__13",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,8 +73,111 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/lesson9TestCases" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestAndersenWebPage.isDateOfBirthChangeable">
+    <configuration name="TestAndersenWebPage.isDateOfBirthChangeable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.lesson9TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.lesson9TestCases" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+      <option name="METHOD_NAME" value="isDateOfBirthChangeable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAndersenWebPage.isNotLoggingInWithNoData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.lesson9TestCases" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+      <option name="METHOD_NAME" value="isNotLoggingInWithNoData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAndersenWebPage.isNotLoggingWithIncorrectEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.lesson9TestCases" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+      <option name="METHOD_NAME" value="isNotLoggingWithIncorrectEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAndersenWebPage.isNotLoggingWithIncorrectPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.lesson9TestCases" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+      <option name="METHOD_NAME" value="isNotLoggingWithIncorrectPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAndersenWebPage.isPasswordEditSucceeded" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="andersenCourseMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="andersenCourse.lesson9TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="andersenCourse.lesson9TestCases" />
+      <option name="MAIN_CLASS_NAME" value="andersenCourse.lesson9TestCases.TestAndersenWebPage" />
+      <option name="METHOD_NAME" value="isPasswordEditSucceeded" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestAndersenWebPage.isDateOfBirthChangeable" />
+        <item itemvalue="TestNG.TestAndersenWebPage.isPasswordEditSucceeded" />
+        <item itemvalue="TestNG.TestAndersenWebPage.isNotLoggingWithIncorrectPassword" />
+        <item itemvalue="TestNG.TestAndersenWebPage.isNotLoggingWithIncorrectEmail" />
+        <item itemvalue="TestNG.TestAndersenWebPage.isNotLoggingInWithNoData" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
